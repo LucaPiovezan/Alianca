@@ -89,3 +89,47 @@ h1 {
 #fotoCentro {
     opacity: 1;
 }
+/* Responsivo para celulares */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 22px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #dataTexto {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #diaNumero {
+        font-size: 28px;
+    }
+
+    #fotoCentro {
+        width: 80%;
+        max-width: 280px;
+    }
+
+    #alianca {
+        width: 70px;
+    }
+
+    .conteudoFinal h2 {
+        font-size: 28px;
+    }
+
+    .conteudoFinal p {
+        font-size: 20px;
+    }
+
+    #gifFinal {
+        width: 160px;
+    }
+
+    body {
+        padding: 15px;
+        justify-content: center;
+    }
+}
